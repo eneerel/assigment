@@ -55,6 +55,9 @@ h2{
 h1{
     font-size: 4rem;
 }
+p{
+    font-weight: 500;
+}
 /*hero-section*/
 .hero-section{
     background-color:#DCEAF5;
@@ -67,13 +70,11 @@ h1{
 
 }
 .hero-section-img img{
-    width: 100 ;
+    width: 100%;
     vertical-align: bottom;
-
 }
-.herop{
+.hero-section p{
     padding: 20px;
-    padding-bottom: 40px;
 }
 
 .see-our{
@@ -288,6 +289,7 @@ padding: 10px ;
 }
 .fin-logo{
     font-weight: 800;
+    font-size: 1.5rem;
 }
 .footer-left{
     align-items: center;
@@ -308,3 +310,198 @@ background-color: #DCEAF5;
 border-radius: 20px;
 padding: 40px;
 }
+.p-grey{
+    background-color: rgb(238, 233, 233);
+    padding: 20px;
+    border-radius: 20px;
+}
+.p-b{
+    height: 100px;
+    background-color: rgb(238, 233, 233);
+    padding: 20px;
+    border-radius: 20px;
+}
+.apply-now{
+    font-weight: 800;
+    margin-bottom: 40px
+}
+.submit{
+    background-color: orange;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.detailst-p{
+    color: orange;
+}
+.detailsts{
+    align-self: center center;
+}
+.detalist-d{
+align-self: flex-start;
+}
+
+
+/* CONTACT US PAGE */
+
+.contact-input{
+    background-color: rgb(247, 248, 249);
+    border: none;
+    width: 100%;
+    margin: .5rem 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: grey;
+}
+.last-input{
+    background-color:  rgb(250, 251, 253);
+    border: none;
+    width: 100%;
+    margin: .5rem 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 40%;
+    color: grey;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.submit-a{
+    color: white;
+    background-color: rgb(255, 145, 0);
+    padding: .8rem;
+    border-radius: 30px;
+}
+/* vision*/
+.vision-section{
+    background-color: #DCEAF5;
+}
+.pro{ 
+ width: 30px;
+ border-radius: 30px;
+ margin: 0;
+}
+.vision-section .col-2{
+    margin: 20px;
+    align-items: center;
+}
+.colimage{
+    width: 100%;
+    align-items: center;
+}
+.vision-section a{
+    color: orange;
+}
+.vision-section a::after{
+    content: "\2192";
+}
+/*CAREER */
+.passionate h2{
+    font-size: 2rem;
+    }
+    .passionate-p{
+    align-self: center;
+    padding: 20px;
+    
+    }
+    .passionate img{
+        width: 100%;
+        border-radius: 20px;
+        vertical-align: bottom;
+    }
+    .breaking-l{
+        position: relative;
+    }
+    .breaking-img::after{
+        position: absolute;
+        content: "";
+        background-color: orange;
+        inset: 0 85% 0 0 ;
+        mix-blend-mode: multiply;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        vertical-align: bottom;
+    }
+    .view-a{
+        color: white;
+        background-color: orange;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .positions .col-3 {
+    background-color: #DCEAF5;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    }
+    .positions .apply a{
+        color: orange;
+    }
+    /*SERVICE*/
+    .breaking-solution img{
+        width: 100%;
+        vertical-align: bottom;
+
+        }
+        .breaking-l{
+            position: relative;
+        }
+        .breaking-img::after{
+            position: absolute;
+            content: "";
+            background-color: orange;
+            inset: 0 80% 0 0 ;
+            mix-blend-mode: multiply;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            vertical-align: bottom;
+        }
+        .right{
+            position: relative;
+        }
+        .right img{
+            width: 100%;
+        }
+        .image::after{
+            position: absolute;
+            content: "";
+            background-color: orange;
+            inset: 20% 88% 55% 0 ;
+            mix-blend-mode: multiply;
+            border-radius: 5px;
+        }
+        .left{
+            position: relative;
+        }
+        .left img{
+            width: 100%;
+        }
+        .col-2 .p{
+            align-items: center;
+        }
+        .image-l::after{
+            position: absolute;
+            content: "";
+            background-color: orange;
+            inset: 20% 0 55% 88% ;
+            mix-blend-mode: multiply;
+            border-radius: 5px;   
+        }
+        .work-a{
+            color: white;
+            background-color: rgb(255, 145, 0);
+            padding: .8rem;
+            border-radius: 30px;
+        }
+        /* Learn more*/
+        .picture{
+            width: 100%;
+            border-radius: 20px;
+            margin-bottom: 40px;
+         }
+         .figma{
+            max-width: 800px;
+            margin: 0 auto;
+         }
